@@ -1,12 +1,78 @@
+body {
+    background-color: white;
+}
+
+nav { 
+    background-color: white;
+    height: 100px;
+    font-size: 30px;
+    border-bottom: 1px;
+    border-color: gray;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    border-style: solid;
+}
+
 .logo {
-    background-color: red;
+    background-color: white;
     float: left;
+    margin-top: 30px;
+    margin-left: 100px;
+    color: blue;
+
 }
 
 .items {
-    background-color: blue;
-    font-size: 40px;
+    background-color: white;
     padding-left: 900px;
-    padding-top: 20px;
-    padding-bottom: 14px;
+    padding-top: 30px;
+    text-align: right;
+    padding-right: 200px;
+    margin: auto;
+    color: gray;
+    word-spacing: 2px;
+}
+
+.header {
+    text-align: center;
+    color: gray;
+    font-size: 30px;
+    background-color: white;
+}
+
+header {
+    height: 200px;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+.header_h1 {
+    background-image: linear-gradient(to right, rgb(51, 0, 255), rgb(255, 140, 0));
+    background-clip: text;
+    color: transparent;
+}
+
+.button1 {
+    width: 150px;
+    background-color: rgb(56, 129, 255);
+    border-radius: 7px;
+    height: 30px;
+    color: white;
+    border-style: hidden;
+}
+
+.button2 {
+    width: 150px;
+    border-radius: 7px;
+    height: 30px;
+    color: gray;
+    border-left: 1px;
+    border-right: 1px;
+    border-top: 1px;
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: gray;
+    background-color: white;
 }
